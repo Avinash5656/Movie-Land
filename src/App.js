@@ -6,7 +6,7 @@ import "./App.css";
 
 // API URL to fetch movie data
 
-const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=24adc189"
+const API_URL = "https://www.omdbapi.com/?i=tt3896198&apikey=24adc189"
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
